@@ -1,0 +1,31 @@
+.heading {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 500;
+  color: ghostwhite;
+}
+
+.motion__carousel {
+  overflow: hidden;
+  /* border: 1px solid ghostwhite; */
+}
+
+.motion__innercarousel {
+  /* background: fuchsia; */
+  display: flex;
+  padding: 20px;
+  width: fit-content;
+}
+
+.motion__items {
+  height: 40rem;
+  min-width: 25rem;
+  margin: 0px 17px;
+}
+
+.motion__items img {
+  height: 100%;
+  width: 100%;
+  border: 2px solid ghostwhite;
+  border-radius: 7px;
+}
